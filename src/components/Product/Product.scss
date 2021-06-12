@@ -1,0 +1,73 @@
+@import "../../styles/variables";
+
+.product {
+  position: relative;
+  border: 1px solid $light-grey;
+  width: 100%;
+}
+
+.product__title {
+  margin: 0;
+  font-size: 20px;
+  line-height: 27px;
+}
+
+.product__info {
+  padding: 20px;  
+}
+
+.product__image {
+  width: 100%;
+}
+
+.product__adress {
+  margin-bottom: 20px;
+  margin-top: 10px
+}
+
+.product__price {
+  margin-top: 10px;
+}
+
+.product__shared-ownership-availability {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.product__price span {
+  font-weight: bold;
+}
+
+.product__link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.product__img-wrapper {
+  position: relative;
+}
+
+.product__label{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  font-weight: 700;
+  font-size: 12px;
+  line-height:30px;
+  text-align: center;
+  color:$basic-white;
+  width: 134px;
+  height: 30px;
+}
+
+.product__label--living {
+  background-color:$pine-green;
+}
+
+.product__label--support {
+  background-color: $christine;
+  width: 204px;
+}
